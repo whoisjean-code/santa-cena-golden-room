@@ -1,0 +1,152 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Santa Cena - Golden Room</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link href="https://fonts.googleapis.com/css2?family=Orbitron:wght@400;600;800&family=Inter:wght@300;400;600&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body class="bg-gradient-to-br from-[#1a0122] via-black to-[#1a0122] min-h-screen text-white font-inter">
+    <!-- 3D Decorative Elements -->
+    <div class="fixed left-0 top-1/4 transform -translate-y-1/2 z-10">
+        <div class="bottle-left"></div>
+    </div>
+    <div class="fixed right-0 top-1/4 transform -translate-y-1/2 z-10">
+        <div class="bottle-right"></div>
+    </div>
+    <div class="fixed left-0 bottom-1/4 transform -translate-y-1/2 z-10">
+        <div class="bottle-left-bottom"></div>
+    </div>
+    <div class="fixed right-0 bottom-1/4 transform -translate-y-1/2 z-10">
+        <div class="bottle-right-bottom"></div>
+    </div>
+
+    <!-- Hero Section -->
+    <header class="h-screen flex items-center justify-center relative overflow-hidden">
+        <div class="absolute inset-0 bg-gradient-to-b from-purple-900/20 to-black/40"></div>
+        <div class="absolute inset-0 bg-[radial-gradient(circle_at_center,rgba(184,41,247,0.1)_0%,transparent_70%)]"></div>
+        <div class="text-center z-10 px-6 py-12">
+            <div class="mb-6 md:mb-8 space-y-2 md:space-y-3">
+                <h2 class="text-2xl sm:text-3xl md:text-5xl font-orbitron white-neon-text tracking-[0.2em] md:tracking-[0.3em]">BIENVENIDOS TODOS A</h2>
+                <!--<h2 class="text-2xl sm:text-3xl md:text-5xl font-orbitron neon-text-subtle tracking-[0.2em] md:tracking-[0.3em]">PRESENTA</h2>-->
+            </div>
+            <h1 class="text-6xl sm:text-7xl md:text-[10rem] font-orbitron font-bold mb-6 md:mb-10 neon-text tracking-[0.15em] md:tracking-[0.2em] main-title">
+                Santa Cena
+            </h1>
+            <div class="text-2xl sm:text-3xl md:text-5xl space-y-4 md:space-y-6 neon-text-subtle">
+                <p class="font-bold tracking-[0.15em] md:tracking-[0.2em]">SÁBADO 14 JUNIO</p>
+                <p class="text-4xl sm:text-5xl md:text-7xl white-neon-text tracking-[0.15em] md:tracking-[0.2em] time-glow">6:00 PM</p>
+            </div>
+        </div>
+</header>
+
+<div class="background-music-container" style="position: fixed; bottom: 0; right: 0; width: 0; height: 0; overflow: hidden; z-index: -1;">
+  <iframe width="0" height="0" src="https://www.youtube.com/embed/ukbiRcyzrpc?autoplay=1&loop=1&playlist=ukbiRcyzrpc&mute=1" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
+</div>
+
+<!-- Neon Symbol Decorations -->
+<div class="neon-symbol bottle-glass"></div>
+<div class="neon-symbol disco-ball"></div>
+<div class="neon-symbol dj"></div>
+<div class="neon-symbol cherries"></div>
+
+<!-- Main Stage -->
+<section class="py-32 px-4 bg-black/30 backdrop-blur-md relative overflow-hidden">
+        <div class="absolute inset-0 bg-[radial-gradient(circle_at_center,rgba(184,41,247,0.1)_0%,transparent_60%)]"></div>
+        <div class="max-w-4xl mx-auto text-center relative z-10">
+            <h2 class="text-4xl sm:text-5xl font-orbitron mb-10 md:mb-16 neon-text-subtle tracking-[0.2em] md:tracking-[0.3em]">Main Stage</h2>
+            <div class="grid grid-cols-1 md:grid-cols-2 gap-6 md:gap-8">
+                <div class="p-6 sm:p-8 md:p-10 border border-purple-500/30 rounded-2xl hover-glow transition-all bg-black/50 backdrop-blur-md">
+                    <h3 class="text-3xl sm:text-4xl font-orbitron mb-4 md:mb-6 neon-text-subtle tracking-[0.15em] md:tracking-[0.2em]">DJ Pablo Muriel</h3>
+                    <p class="text-purple-300 text-lg sm:text-xl tracking-[0.1em] md:tracking-[0.15em]">FASE 1</p>
+                </div>
+                <div class="p-6 sm:p-8 md:p-10 border border-purple-500/30 rounded-2xl hover-glow transition-all bg-black/50 backdrop-blur-md">
+                    <h3 class="text-3xl sm:text-4xl font-orbitron mb-4 md:mb-6 neon-text-subtle tracking-[0.15em] md:tracking-[0.2em]">DJ RB</h3>
+                    <p class="text-purple-300 text-lg sm:text-xl tracking-[0.1em] md:tracking-[0.15em]">FASE 2</p>
+                </div>
+            </div>
+            <div class="mt-16 md:mt-24">
+                <h3 class="text-3xl sm:text-4xl font-orbitron mb-6 md:mb-8 neon-text-subtle tracking-[0.15em] md:tracking-[0.2em]">BANDA INVITADA</h3>
+                <div class="p-6 sm:p-8 md:p-10 border border-purple-500/30 rounded-2xl hover-glow transition-all bg-black/50 backdrop-blur-md max-w-lg mx-auto">
+                    <h3 class="text-3xl sm:text-4xl font-orbitron mb-4 md:mb-6 neon-text-subtle tracking-[0.15em] md:tracking-[0.2em]">VIP PERÚ</h3>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Guerra de Facultades -->
+    <section class="py-32 px-4 relative overflow-hidden">
+        <div class="absolute inset-0 bg-[radial-gradient(circle_at_center,rgba(184,41,247,0.1)_0%,transparent_60%)]"></div>
+        <div class="max-w-4xl mx-auto text-center relative z-10">
+            <h2 class="text-4xl sm:text-5xl font-orbitron mb-10 md:mb-16 neon-text-subtle tracking-[0.2em] md:tracking-[0.3em]">Guerra de Facultades</h2>
+            <div class="grid grid-cols-1 md:grid-cols-2 gap-4 md:gap-6">
+                <a href="https://www.instagram.com/icv_hoyutp/" target="_blank" rel="noopener noreferrer" class="block p-6 sm:p-8 border border-purple-500/30 rounded-2xl hover-glow transition-all bg-black/50 backdrop-blur-md">
+                    <h3 class="text-lg sm:text-xl font-orbitron tracking-[0.15em] md:tracking-[0.2em]">ING. CIVIL</h3>
+                </a>
+                <a href="https://www.instagram.com/adm_empresas_utp_huancayo/" target="_blank" rel="noopener noreferrer" class="block p-6 sm:p-8 border border-purple-500/30 rounded-2xl hover-glow transition-all bg-black/50 backdrop-blur-md">
+                    <h3 class="text-lg sm:text-xl font-orbitron tracking-[0.15em] md:tracking-[0.2em]">ADM. EMPRESAS</h3>
+                </a>
+                <a href="https://www.instagram.com/negociosutp.hyo/" target="_blank" rel="noopener noreferrer" class="block p-6 sm:p-8 border border-purple-500/30 rounded-2xl hover-glow transition-all bg-black/50 backdrop-blur-md">
+                    <h3 class="text-lg sm:text-xl font-orbitron tracking-[0.15em] md:tracking-[0.2em]">ADM. NEGOCIOS</h3>
+                </a>
+                <div class="p-6 sm:p-8 border border-purple-500/30 rounded-2xl hover-glow transition-all bg-black/50 backdrop-blur-md">
+                    <h3 class="text-lg sm:text-xl font-orbitron tracking-[0.15em] md:tracking-[0.2em]">PSICOLOGIA</h3>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Location & Tickets -->
+    <section class="py-32 px-4 bg-black/30 backdrop-blur-md relative overflow-hidden">
+        <div class="absolute inset-0 bg-[radial-gradient(circle_at_center,rgba(184,41,247,0.1)_0%,transparent_60%)]"></div>
+        <div class="max-w-4xl mx-auto text-center relative z-10">
+            <h2 class="text-4xl sm:text-5xl font-orbitron mb-10 md:mb-16 neon-text-subtle tracking-[0.2em] md:tracking-[0.3em]">Ubicación</h2>
+            <p class="text-xl sm:text-2xl mb-6 neon-text-subtle tracking-[0.15em] md:tracking-[0.2em]">Local Golden Room</p>
+            <div class="flex justify-center gap-4 md:gap-6 mb-6 md:mb-8">
+                <a href="https://maps.app.goo.gl/2uRnRsfsPTNXmgu27" target="_blank" rel="noopener noreferrer" class="px-8 sm:px-12 py-3 rounded-2xl font-orbitron text-base sm:text-lg neon-button tracking-[0.15em] md:tracking-[0.2em] inline-block hover:underline">
+                    AQUÍ
+                </a>
+            </div>
+            <div class="flex flex-col items-center gap-3 md:gap-4 mt-4">
+                <p class="text-base sm:text-lg neon-text-subtle tracking-[0.15em] md:tracking-[0.2em]">¿Compraste tus entradas?</p>
+                <button id="reserveBtn" class="px-10 sm:px-16 py-4 sm:py-5 rounded-2xl font-orbitron text-base sm:text-lg neon-button tracking-[0.15em] md:tracking-[0.2em]" type="button">
+                    Reservar Ahora
+                </button>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="py-16 text-center bg-black/50 backdrop-blur-md">
+        <div class="max-w-4xl mx-auto px-4">
+            <!--<p class="text-purple-400 mb-4 tracking-[0.2em] text-lg">VIP PERÚ - EN VIVO</p>-->
+            <div class="text-sm text-purple-500 tracking-[0.15em]">
+                <p class="blinking-text white-neon-text text-lg md:text-xl">¿ESTAS LISTO PARA UNA DE LAS MEJORES CENAS DE HUANCAYO?</p>
+            </div>
+        </div>
+<script>
+  const reserveBtn = document.getElementById('reserveBtn');
+  const links = [
+    'http://wa.me/+51968826618',
+    'http://wa.me/+51986524215',
+    'http://wa.me/+51936067467'
+  ];
+  reserveBtn.addEventListener('click', () => {
+    const randomLink = links[Math.floor(Math.random() * links.length)];
+    window.open(randomLink, '_blank');
+  });
+</script>
+<audio id="hover-sound" src="futuristic-sound.mp3" preload="auto"></audio>
+<script>
+  const hoverSound = document.getElementById('hover-sound');
+  document.querySelectorAll('button, a').forEach(el => {
+    el.addEventListener('mouseenter', () => {
+      hoverSound.currentTime = 0;
+      hoverSound.play();
+    });
+  });
+</script>
+</body>
+</html>
